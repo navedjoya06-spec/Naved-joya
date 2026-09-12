@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #1f4e79;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #333;
+}
+
+/* Task 1: Flexbox */
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.box1 {
+  background-color: #ffd6d6;
+}
+
+.box2 {
+  background-color: #d6f5d6;
+}
+
+.box3 {
+  background-color: #d6e8ff;
+}
+
+/* Task 2: CSS Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+footer{
+ margin: 20px;
+  background-color: #f3f3f3;
+}
