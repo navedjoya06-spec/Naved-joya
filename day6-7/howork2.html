@@ -1,0 +1,183 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="howork2.css">
+  
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Dev<span>Folio</span></a>
+
+      <button class="mobile-toggle" id="menuToggle" aria-label="Toggle Navigation">
+        ☰
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Switcher -->
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container hero-content animate-on-scroll">
+        <h1 class="hero-title">Hi, I'm <span class="highlight">NAVED JOYA</span></h1>
+        <p class="hero-subtitle">Frontend Developer & B C A Student</p>
+        <p class="hero-desc">
+          Building responsive, accessible, and performant web applications with modern technologies.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container animate-on-scroll">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I specialize in frontend development, creating responsive interfaces using HTML5, CSS3, and JavaScript. 
+              My focus is on writing clean, accessible code that delivers intuitive user experiences across desktop, tablet, and mobile devices.
+            </p>
+            <p>
+              When not writing code, I enjoy exploring UI/UX design trends and optimizing web performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container animate-on-scroll">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript (ES6+), Flexbox, CSS Grid</p>
+          </div>
+          <div class="skill-card">
+            <h3>Core CS</h3>
+            <p>Data Structures, Algorithms, OOP, Database Systems</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools & Workflow</h3>
+            <p>Git, GitHub, VS Code, Responsive Web Design, Web Accessibility</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container animate-on-scroll">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>A semantic, responsive portfolio featuring custom theme toggling and dynamic animations.</p>
+              <div class="tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>Interactive web application enabling task prioritization, filtering, and local storage support.</p>
+              <div class="tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS Grid</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>Dynamic forecast dashboard pulling real-time weather metrics using RESTful APIs.</p>
+              <div class="tags">
+                <span class="tag">Fetch API</span>
+                <span class="tag">Responsive UI</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container animate-on-scroll">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with Social Links -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 NAVED JOYA. All rights reserved.</p>
+      <div class="social-links">
+        <a href="[https://github.com](https://github.com)" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a href="[https://linkedin.com](https://linkedin.com)" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+        <a href="[https://twitter.com](https://twitter.com)" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Styled Confirmation Popup -->
+  <div class="modal" id="confirmationModal" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <h3 id="modalTitle">Message Sent</h3>
+      <p id="modalMessage">Thank you! Your message has been received succesfully.</p>
+      <button class="btn btn-primary" id="modalCloseBtn">OK</button>
+    </div>
+  </div>
+
+  <script src="howork2.js"></script>
+</body>
+</html>
