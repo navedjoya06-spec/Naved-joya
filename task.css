@@ -1,0 +1,92 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+
+/* Main Container */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Sections - Box Model */
+
+section {
+    background-color: white;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Section Headings */
+
+section h2 {
+    color: #2563eb;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+}
+
+
+/* Skills */
+
+.skills ul {
+    margin-left: 25px;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
+
+    padding: 20px;
+    margin-top: 30px;
+}
