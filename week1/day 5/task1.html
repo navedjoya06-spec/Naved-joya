@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Tasks</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <h1>JavaScript Internship Tasks</h1>
+
+    <!-- TASK 1 -->
+    <section>
+        <h2>Task 1 - Interactive Buttons</h2>
+
+        <h3 id="text">Welcome to My Page</h3>
+
+        <button onclick="red()">RED</button>
+        <button onclick="green()">GREEN</button>
+        <button onclick="blue()">BLUE</button>
+
+        <br><br>
+
+        <select onchange="changeFont(this.value)">
+            <option value="">Select Font</option>
+            <option value="Arial">Arial</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="increase()">A+</button>
+        <button onclick="decrease()">A-</button>
+
+        <br><br>
+
+        <button onmouseover="bold()">Bold</button>
+        <button onmouseover="italic()">Italic</button>
+        <button onmouseover="underline()">Underline</button>
+    </section>
+
+
+    <!-- TASK 2 -->
+    <section>
+        <h2>Task 2 - Simple Form Validation</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" id="name" placeholder="Enter Name">
+            <br><br>
+
+            <input type="email" id="email" placeholder="Enter Email">
+            <br><br>
+
+            <input type="text" id="mobile" placeholder="Enter Mobile">
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+            <p id="message"></p>
+
+        </form>
+    </section>
+
+
+    <!-- TASK 3 -->
+    <section>
+        <h2>Task 3 - Simple Calculator</h2>
+
+        <input type="number" id="num1" placeholder="First Number">
+        <input type="number" id="num2" placeholder="Second Number">
+
+        <br><br>
+
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+
+        <h3 id="result"></h3>
+    </section>
+    <!-- BONUS TASK -->
+<section>
+    <h2>Bonus - Theme Switcher</h2>
+
+    <button onclick="lightMode()">Light</button>
+    <button onclick="darkMode()">Dark</button>
+
+    <p>This is my webpage theme switcher.</p>
+</section>
+
+
+    <script src="task1.js"></script>
+
+</body>
+</html>

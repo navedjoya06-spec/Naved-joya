@@ -1,0 +1,30 @@
+/* Universal Box Model Reset */
+* {
+    box-sizing: border-box; /* Includes padding and border in total width */
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Body Styling */
+body {
+    background-color: #f5f5f5; /* Background color */
+    font-family: 'Poppins', sans-serif; /* Google Custom Font */
+    color: #333; /* Color */
+    padding: 2rem; /* Units */
+}
+
+/* Section Box Model & Layout */
+.card {
+    background-color: #ffffff; /* Background */
+    width: 80%; /* CSS Unit % */
+    margin: 20px auto; /* Margin spacing */
+    padding: 20px; /* Padding spacing */
+    border: 2px solid #333; /* Border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Heading Styling */
+h1, h2 {
+    color: #1e90ff; /* HEX Color */
+    margin-bottom: 10px; /* Margin */
+}
