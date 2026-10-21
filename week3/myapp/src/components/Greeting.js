@@ -1,10 +1,9 @@
-
-function Greeting(props) {
+function Greeting({ name, topic }) {
   return (
-    <div>
-      <h3>Hello, {props.name}!</h3>
-      <p>You are learning {props.topic} today.</p>
-    </div>
+    <article className="greeting-card">
+      <h3>Hello, {name}!</h3>
+      <p>You are learning {topic} today.</p>
+    </article>
   );
 }
 

@@ -1,14 +1,7 @@
-
 function Footer() {
   return (
-    <footer
-      style={{
-        backgroundColor: "#f1f1f1",
-        padding: "10px",
-        textAlign: "center"
-      }}
-    >
-      <p>© 2025 My Portfolio | Built with React</p>
+    <footer className="site-footer">
+      <p>© 2026 My Portfolio | Built with React</p>
     </footer>
   );
 }
